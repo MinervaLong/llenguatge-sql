@@ -19,7 +19,7 @@ Exercici 3. Llenguatge SQL. Consultes (punt 1.1.3) de la web: https://josejuansa
 
 9: SELECT nombre, ROUND(precio) AS precio FROM `producto` 
 
-10: SELECT nombre, TRUNCATE(precio,0) FROM `producto` 
+10: SELECT nombre, TRUNCATE(precio,0) AS precio FROM `producto` 
 
 11: SELECT codigo_fabricante FROM `producto` 
 
